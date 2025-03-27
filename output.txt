@@ -1,0 +1,9 @@
+PS C:\Projects\Cognifyz> cd "c:\Projects\Cognifyz\Level2\Task3-encryptorDecryptor\" ; if ($?) { javac FileEncryptor.java } ; if ($?) { java FileEncryptor }
+Choose an option (1 - Encrypt, 2 - Decrypt): 1
+Enter the file path to encrypt: sample.txt
+File encrypted successfully! Saved as encryptionResult.enc
+PS C:\Projects\Cognifyz\Level2\Task3-encryptorDecryptor> cd "c:\Projects\Cognifyz\Level2\Task3-encryptorDecryptor\" ; if ($?) { javac FileEncryptor.java } ; if ($?) { java FileEncryptor }
+Choose an option (1 - Encrypt, 2 - Decrypt): 2
+Enter the encrypted file path to decrypt: encryptionResult.enc
+File decrypted successfully! Saved as decryptionResult.txt
+PS C:\Projects\Cognifyz\Level2\Task3-encryptorDecryptor> 
